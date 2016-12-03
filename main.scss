@@ -1,0 +1,26 @@
+*{
+	box-sizing: border-box;
+}
+.header li{
+	display: inline;
+	margin-right: 10px;
+}
+.header nav{
+	float: left;
+	width: 60%;
+}
+.header .aside-nav{
+	float: left;
+	width: 40%;
+	text-align: right;
+}
+.header .aside-nav{
+	padding-right: 40px;
+	text-align: right;
+}
+.header .aside-nav li::after{
+	content: " |";
+}
+.header .aside-nav li:last-child::after{
+	content: "";
+}
