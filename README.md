@@ -1,5 +1,13 @@
 # Pre-Post--processors-homework
 
+## How to Install ##
+`$ npm install` install node package manager
+
+`$ npm run build:html` - build HTML<br />
+`$ npm run build:css` - build CSS<br />
+`$ npm run build` - build HTML and CSS<br />
+
+
 ## Як працюємо? ##
   
 - клонуєм репозиторій переходимо у branch *develop* і відколюєм branch із назвою "feature/yourTask" наприклад якщо робите task1 частину 1 то бренч у вас повинен називатись "feature/Task1.1". Переходити на створену бренчу і кодите свою частину
