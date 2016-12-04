@@ -24,3 +24,39 @@
 .header .aside-nav li:last-child::after{
 	content: "";
 }
+
+.container{
+	display: flex;
+	justify-content: center;
+}
+
+.input{
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+
+}
+#user{
+	margin-left: 100px;
+	width: 750px;
+	height: 35px;
+}
+.buttons{
+	display: flex;
+	justify-content: center;
+	margin-top: 15px;
+}
+main{
+	margin-top: 50px;
+}
+p{
+	font-size: 15px;
+	float: right;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+#google, #lucky{
+	font-size: 20px;
+	width: 200px;
+	height: 46px;
+}
