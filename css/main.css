@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box; }
+
+.header li {
+  display: inline;
+  margin-right: 10px; }
+
+.header nav {
+  float: left;
+  width: 60%; }
+
+.header .aside-nav {
+  float: left;
+  width: 40%;
+  text-align: right; }
+
+.header .aside-nav {
+  padding-right: 40px;
+  text-align: right; }
+
+.header .aside-nav li::after {
+  content: " |"; }
+
+.header .aside-nav li:last-child::after {
+  content: ""; }
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 10px; }
+
+#user {
+  margin-left: 100px;
+  width: 750px;
+  height: 35px; }
+
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 15px; }
+
+main {
+  margin-top: 50px; }
+
+p {
+  font-size: 15px;
+  float: right;
+  margin-top: 5px;
+  margin-left: 5px; }
+
+#google, #lucky {
+  font-size: 20px;
+  width: 200px;
+  height: 46px; }
+
+.footer_nav {
+  margin-top: 50px; }
+
+.footer li {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 5px; }
+
+.footer li a {
+  font-size: 16px; }
+
+.footer_nav li:last-child {
+  font-weight: bold; }
+
+.footer_nav, .footer_nav2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.footer li::after {
+  content: " - ";
+  padding-left: 5px; }
+
+.footer li:last-child::after {
+  content: ""; }
