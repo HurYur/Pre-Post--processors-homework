@@ -5,10 +5,12 @@
     "build:css": "node-sass main.scss -o dest/css/",
     "build": "pug index.pug --pretty -o dest/ && node-sass main.scss -o dest/css/",
     "build:css:autoprefixer": "postcss --use autoprefixer dest/css/*.css --replace",
-    "serve": "hs dest/ -o"
+    "serve": "hs dest/ -o",
+    "deploy": "gh-pages -d dest"
   },
   "dependencies": {
     "autoprefixer": "^6.5.3",
+    "gh-pages": "^0.12.0",
     "htmlhint": "^0.9.13",
     "http-server": "^0.9.0",
     "node-sass": "^3.13.0",
