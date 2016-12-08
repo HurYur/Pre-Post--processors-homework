@@ -7,6 +7,8 @@
 `$ npm run build:css` - build CSS<br />
 `$ npm run build` - build HTML and CSS<br />
 `$ npm run serve` - run http-server, open page in browser<br />
+`$ npm run build:css:autoprefixer` - parse CSS and add vendor prefixes to CSS<br />
+`$ npm run deploy` - publish dest folder to a gh-pages branch on GitHub<br />
 
 ## Як працюємо? ##
   

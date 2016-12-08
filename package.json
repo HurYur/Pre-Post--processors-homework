@@ -4,13 +4,21 @@
     "install:component": "bower install",
     "build:html": "pug index.pug --pretty -o dest/",
     "build:css": "node-sass main.scss -o dest/css/",
-    "build:first": "npm run build && npm run install:component",
-    "build": "pug index.pug --pretty -o dest/ && node-sass main.scss -o dest/css/"
+    "build": "npm run build && npm run install:component",
+    "build:css:autoprefixer": "postcss --use autoprefixer dest/css/*.css --replace",
+    "serve": "hs dest/ -o",
+    "deploy": "gh-pages -d dest"
   },
   "dependencies": {
     "bower": "^1.8.0",
+    "autoprefixer": "^6.5.3",
+    "gh-pages": "^0.12.0",
+    "htmlhint": "^0.9.13",
+    "http-server": "^0.9.0",
     "node-sass": "^3.13.0",
+    "postcss-cli": "^2.6.0",
     "pug": "^2.0.0-beta6",
-    "pug-cli": "^1.0.0-alpha6"
+    "pug-cli": "^1.0.0-alpha6",
+    "stylelint": "^7.6.0"
   }
 }
