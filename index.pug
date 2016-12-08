@@ -2,10 +2,11 @@ doctype html
 html(lang="en")
   head
     title Pre-Post--processors-homework
-    link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css")
+    link(rel="stylesheet" href="components/normalize-css/normalize.css")
     link(rel="stylesheet" href="css/main.css")
+    link(rel="stylesheet" href="components/animate.css/animate.min.css")
   body
-    header.header
+    header.header.animated.bounceInDown
       nav
         ul
           li Web
@@ -51,15 +52,15 @@ html(lang="en")
     footer.footer
       div.footer_nav
         ul
-          li
+          li.animated.bounceInLeft
             a(href="#") Advertising Programs
-          li
+          li.animated.bounceInLeft
             a(href="#") Business Solutions
-          li
+          li.animated.bounceInRight
             a(href="#") About Google
-          li
+          li.animated.bounceInRight
             a(href="#") Go to Google China
-      div.footer_nav2
+      div.footer_nav2.animated.bounceInUp
         ul
           li &copy;2009
           li
