@@ -1,11 +1,14 @@
 {
   "name": "Pre-Post--processors-homework",
   "scripts": {
-  	"build:html": "pug index.pug --pretty -o dest/",
+    "install:component": "bower install",
+    "build:html": "pug index.pug --pretty -o dest/",
     "build:css": "node-sass main.scss -o dest/css/",
+    "build:first": "npm run build && npm run install:component",
     "build": "pug index.pug --pretty -o dest/ && node-sass main.scss -o dest/css/"
   },
   "dependencies": {
+    "bower": "^1.8.0",
     "node-sass": "^3.13.0",
     "pug": "^2.0.0-beta6",
     "pug-cli": "^1.0.0-alpha6"
