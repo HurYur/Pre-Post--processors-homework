@@ -6,7 +6,7 @@
     "build:css": "node-sass main.scss -o dest/css/",
     "build": "npm run build && npm run install:component",
     "build:css:autoprefixer": "postcss --use autoprefixer dest/css/*.css --replace",
-    "serve": "hs dest/ -o",
+    "server": "hs dest/ -o",
     "deploy": "gh-pages -d dest"
   },
   "dependencies": {
